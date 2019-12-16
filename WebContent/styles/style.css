@@ -17,11 +17,13 @@ header h1 {
     margin-top: 0%;
     margin-left: 2%;
 }
+
 /* header icon */
 header h1 image {
     left: 10%;
     margin-top: 0%;
 }
+
 /* header links */
 nav a {
     top: 1%;
@@ -30,14 +32,17 @@ nav a {
     margin-left: 80%;
     position: fixed;
 }
+
 /* header movie link */
 nav .movies {
     margin-left: 84%;
 }
+
 /* header favorites link */
 nav .favorites {
     margin-left: 89%;
 }
+
 /* title heading */
 #h1 {
     top: 5%;
@@ -47,6 +52,7 @@ nav .favorites {
     font-family: Yu Gothic;
     margin-left: 7%;
 }
+
 /* table styling */
 .table {
     top: 15%;
@@ -54,9 +60,9 @@ nav .favorites {
     position: fixed;
     font-size: 22px;
     margin-left: 7%;
-    width: 613;
     font-family: Segoe UI;
 }
+
 /* edit movie table-form */
 #table {
     top: 15%;
@@ -67,6 +73,7 @@ nav .favorites {
     font-weight: bold;
     font-family: Segoe UI;
 }
+
 /* administrator-table-column */
 .title {
     text-align: left;
@@ -107,12 +114,14 @@ nav .favorites {
     height: 50%;
     padding: 12px;
 }
+
 /*favorites-notification-status */
 #status {
     color: #4bd14e;
     font-size: 24px;
     font-family: Arial Rounded MT;
 }
+
 /*edit-menu-status */
 #edit-status {
     color: #4bd14e;
@@ -120,16 +129,19 @@ nav .favorites {
     margin-left: 9%;
     font-family: Arial Rounded MT;
 }
+
 /* favorites empty -link */
 #movielist {
     color: #169ec7;
     font-family: Yu Gothic UI;
 }
+
 /* favorites empty -empty message */
 #empty {
     color: #b9bcbd;
     font-family: Yu Gothic UI;
 }
+
 /* footer */
 footer {
     position: fixed;

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Edit Movie</title>
+<link rel="icon" href="images/logo.png" />
+<link rel="stylesheet" href="styles/style.css" type="text/css" />
+
+<script src="js/script.js">
+    
+</script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            Movie Cruiser&nbsp;<img src="images/logo.png" width=33 height=34 />
+        </h1>
+    </header>
+    <nav>
+        <a class="movies" href="movie-list-admin.html"> Movies</a>
+    </nav>
+
+
+    <form action="edit-movie-status.html" name="form" method="post" onsubmit="return valid()">
+
+        <table id="table" cellspacing="5">
+
+            <tr>
+                <h1 id="h1">Edit Movie</h1>
+            </tr>
+
+            <tr>
+                <td class="title"><label for="title">Title</label></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td colspan="4"><input type="text" id="name" name="name" size="90"
+                    autocomplete="off" placeholder="Avengers:End Game"></td>
+
+            </tr>
+
+            <tr>
+                <td><label for="boxoffice">Gross($)</label></td>
+                <td><label for="active">Active</label></td>
+                <td><label for="dateofLaunch">Date of Launch</label></td>
+                <td><label for="genre">Genre</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="boxoffice" name="boxoffice" autocomplete="off"
+                    placeholder="2787965087"></td>
+                <td><input type="radio" id="active" name="inStock" checked>Yes <input
+                    type="radio" name="inStock" id="active">No</td>
+                <td><input type="text" id="dateofLaunch" name="dateofLaunch" autocomplete="off"
+                    placeholder="27/04/2022"></td>
+                <td><select id="genre">
+                        <option></option>
+                        <option value="Main Course" name="genre">Science Fiction</option>
+                        <option value="Starters" name="genre">Superhero</option>
+                        <option value="romance" name="genre">Romance</option>
+                        <option value="comedy" name="genre">Comedy</option>
+                        <option value="adventure" name="genre">Adventure</option>
+                        <option value="thriller" name="genre">Thriller</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" id="hasteaser" name="hasteaser" checked><label
+                    for="hasteaser">Has Teaser</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="save" type="submit" value="Save" name="submit"></td>
+            </tr>
+        </table>
+    </form>
+    <footer> Copyright &copy; 2019 </footer>
+</body>
+</html>
